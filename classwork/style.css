@@ -4,40 +4,92 @@
     margin: 5;
     box-sizing: border-box;
 }
+
+.outer{
+
+display: block;
+margin: 0px 250px ;
+
+}
 html{
-    color: #222;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #f1e9ee;
+    font-family: cursive;
+    background-color: rgb(8, 8, 8);
+    background-image: url("b6.jpg");
+    background-size: 10px 10px;
+    
+}
+
+.blue-button{
+    text-decoration: none;;
+    font-family: cursive;
+    font-size: 15px ;
+    border-radius: 9px;
+    padding: 6px 4px;
+    background-color: #dcbbbb;
+    color: #050505;
+}
+ 
+.blue-button:hover{
+    text-decoration: none;;
+    background-color: #f18585;
+    color: #050505;
+}
+.lbutton{
+    text-decoration: none;;
+    font-family: cursive;
+    font-size: 15px ;
+    border-radius: 9px;
+    padding: 6px 4px;
+    background-color: #dcbbbb;
+    color: #050505;
+    border:none;
+
+}
+.lbutton:hover{
+text-decoration: none;;
+    background-color: #f18585;
+    color: #050505;
 }
 
 h1{
-    background-color: yellow;
-    font-size: 1.2rem;
+    font-size: 3rem;
     text-transform: uppercase;
-    padding: .5 rem;
-    color: rgb(200, 12, 134, 12);
-
-    border-top: 1px solid #888;
-    border-bottom: 1px solid #888;
+    padding: 4rem ;
+    color: #f98181;
+    text-shadow: 3px 3px 4px #ed0774 ;
+    text-align: center;
 }
 
 
 h2{
-   
-    text-decoration-color: blue;
+    color: #c58686;
+  
 }
 #table{ 
     
     text-align: center;
-    background-color: rgb(173, 20, 220);
+    background-color:none;
 }
 
 .profile img{
-    border-radius: 999px;
-    width: 15rem;
-    height: 15rem;
+
+    border-radius: 300px;
+    width: 22rem;
+    height: 25rem;
+    float: right;
+      
+    
 }
 .resume{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0rem;
+    justify-items: left ;
+    align-items: center;
+}
 
-    border: darkgrey;
-   
+#aulter {
+    padding-top: 1.2rem;
 }
