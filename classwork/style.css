@@ -4,8 +4,12 @@
     margin: 5;
     box-sizing: border-box;
 }
+html{
+    color: #222;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
-h1 {
+h1{
     background-color: yellow;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -16,14 +20,15 @@ h1 {
     border-bottom: 1px solid #888;
 }
 
+
 h2{
-    background-color: aqua;
+   
     text-decoration-color: blue;
 }
 #table{ 
     
     text-align: center;
-    background-color: rgb(20, 180, 220);
+    background-color: rgb(173, 20, 220);
 }
 
 .profile img{
