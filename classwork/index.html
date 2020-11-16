@@ -1,18 +1,21 @@
 <!-- your HTML goes here -->
 <html>
       <head>
+            <link rel ="stylesheet" href= "style.css" >
             <title>My Resume</title>
       </head>
 <body>
-<div class="outer">
-      <h1>Resume Of Jannatul Ferdaus</h1>
-      <img src="my pic.jpg" align="right">
+<div class="resume">
+      <h1  >Resume Of Jannatul Ferdaus</h1>
+      <section class="profile">
+      <img src="my pic.jpg" align="right" border= "round" >
+      </section>
       <p><b><u>Mailing Address:</u></b><br>
       House #Ka-163/1/A,<br>
       Khilkhet, Dhaka-1229.<br><br>
       <b>Mobile No:</b>01775828401<br><br>
       <b>Email Address:</b>  jannatul0442@gmail.com </p>
-
+      <b>Facebook Id:</b><a href="https://www.facebook.com/jannatul.ferdaus.98892615">Jannatul Ferdaus</a> 
       <p><h2>Personal Frame:</h2></p>
       <ul>
             <li>Nick Name     : Jannatul</li>
@@ -26,7 +29,7 @@
             <li>Marital Status: Single</li>
       </ul>
 <h2> Educational Qualifications:</h2>
-<table border="1"><tr><th> Qualification</th>
+<table id="table" border="1"><tr><th> Qualification</th>
 <th>Board/University</th>
 <th>GPA</th>
 <th>Year</th></tr>
@@ -36,7 +39,9 @@
 
 </table>
 <h2>Personal Certificate & Skills:</h2>
-
+<div id="aulter" align ="center">
+<button type="button" onclick="alert('I am Jannatul ')">Click Here To The Additional Information!</button>
+</div>
       </div>
 </body>
 </html>
